@@ -1,0 +1,31 @@
+# Employee API related variable declaration
+
+Person: /person
+AddingPerson: add
+GettingPersonDetails: get
+GettingPersonDetailsByFirstName: getByName
+DeltingPersonDetails: delete
+GettingDetailsByage: getByAge
+Search: search
+GetOldestPerson: oldestPerson
+GetPopulationInEachCity: populationCount
+Photo: /photo
+AddingPhoto: addPhoto
+GetPhotoById: getPhoto
+
+
+
+
+
+
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/MongodbPractice
+  servlet:
+    multipart:
+      max-file-size: 256MB
+      max-request-size: 256MB
+      enabled: true
